@@ -3,7 +3,7 @@ package heroku
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
