@@ -2,7 +2,7 @@ package heroku
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	validation "github.com/hashicorp/terraform-plugin-sdk/helper/validation"
