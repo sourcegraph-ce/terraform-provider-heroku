@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 	heroku "github.com/heroku/heroku-go/v5"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func resourceHerokuAddonAttachmentMigrateState(v int, is *terraform.InstanceState, meta interface{}) (*terraform.InstanceState, error) {
